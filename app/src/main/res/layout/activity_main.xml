@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imv_Course"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_class" />
+
+    <TextView
+        android:id="@+id/tv_Course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Course"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/imv_Course"
+        app:layout_constraintStart_toStartOf="@+id/imv_Course"
+        app:layout_constraintTop_toBottomOf="@+id/imv_Course" />
+
+    <ImageView
+        android:id="@+id/imv_News"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_news" />
+
+    <TextView
+        android:id="@+id/tv_News"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="News"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/imv_News"
+        app:layout_constraintStart_toStartOf="@+id/imv_News"
+        app:layout_constraintTop_toBottomOf="@+id/imv_News" />
+
+    <ImageView
+        android:id="@+id/imv_Map"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Course"
+        app:srcCompat="@drawable/ic_map" />
+
+    <TextView
+        android:id="@+id/tv_Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Maps"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/imv_Map"
+        app:layout_constraintStart_toStartOf="@+id/imv_Map"
+        app:layout_constraintTop_toBottomOf="@+id/imv_Map" />
+
+    <ImageView
+        android:id="@+id/imv_Social"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_News"
+        app:srcCompat="@drawable/ic_share" />
+
+    <TextView
+        android:id="@+id/tv_Social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Social"
+        android:textSize="10pt"
+        app:layout_constraintEnd_toEndOf="@+id/imv_Social"
+        app:layout_constraintStart_toStartOf="@+id/imv_Social"
+        app:layout_constraintTop_toBottomOf="@+id/imv_Social" />
+
+
+</android.support.constraint.ConstraintLayout>
